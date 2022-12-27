@@ -2,14 +2,14 @@
 	"name": "test-package",
 	"version": "0.0.1",
 	"scripts": {
-		"dev": "vite dev",
+		"dev": "vite dev --port 3002 --open",
 		"build": "svelte-kit sync && svelte-package",
 		"prepublishOnly": "echo 'Did you mean to publish `./package/`, instead of `./`?' && exit 1",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"test:unit": "vitest",
-		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"format": "prettier --plugin-search-dir . --write ."
+		"lint": "prettier --check --ignore-path=../../.prettierignore . && TIMING=1 eslint \"src\"",
+		"format": "prettier --write --ignore-path=../../.prettierignore ."
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^1.0.0",
