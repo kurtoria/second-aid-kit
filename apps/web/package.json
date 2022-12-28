@@ -12,7 +12,8 @@
     "format": "prettier --write --ignore-path=../../.prettierignore ."
   },
   "dependencies": {
-    "ui": "workspace:*"
+    "ui": "workspace:*",
+    "test-pack": "workspace:*"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "latest",
