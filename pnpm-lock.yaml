@@ -17,7 +17,7 @@ importers:
       prettier-plugin-svelte: 2.8.1_nxhwyzrlb2jiv2xtis3ad534qu
       turbo: 1.7.0
 
-  packages/aid-number-1:
+  packages/aid-number-2:
     specifiers:
       '@sveltejs/adapter-auto': ^1.0.0
       '@sveltejs/kit': ^1.0.0
@@ -2657,6 +2657,7 @@ packages:
 
   /sourcemap-codec/1.4.8:
     resolution: {integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==}
+    deprecated: Please use @jridgewell/sourcemap-codec instead
     dev: true
 
   /spawndamnit/2.0.0:
