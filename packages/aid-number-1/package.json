@@ -11,8 +11,7 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
-		"pack": "svelte-package",
-		"publish-packages": "cd ./package && pnpm publish"
+		"pack": "svelte-package"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^1.0.0",
@@ -31,5 +30,8 @@
 		"typescript": "^4.9.3",
 		"vite": "^4.0.0"
 	},
-	"type": "module"
+	"type": "module",
+	"publishConfig": {
+		"directory": "./package"
+	}
 }
