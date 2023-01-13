@@ -5,7 +5,7 @@
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "format": "prettier --write .",
-    "release": "changeset version && changeset publish"
+    "publish-packages": "changeset version && changeset publish"
   },
   "devDependencies": {
     "eslint": "^8.0.0",
