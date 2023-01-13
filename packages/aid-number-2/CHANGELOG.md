@@ -1,5 +1,15 @@
 # aid-number-1
 
+## 2.0.0
+
+### Major Changes
+
+- 8d906d0: update stuff
+
+### Patch Changes
+
+- 438057c: Update packages 2
+
 ## 1.0.1
 
 ### Patch Changes
