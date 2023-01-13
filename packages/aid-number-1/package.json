@@ -1,6 +1,6 @@
 {
 	"name": "aid-number-1",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"module": "src/lib/index.js",
 	"svelte": "src/lib/index.js",
 	"scripts": {

@@ -1,5 +1,11 @@
 # aid-number-1
 
+## 2.0.1
+
+### Patch Changes
+
+- 8fe0f09: Did stuff
+
 ## 2.0.0
 
 ### Major Changes
