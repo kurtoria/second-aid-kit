@@ -1,6 +1,6 @@
 {
-	"name": "aid-number-1",
-	"version": "0.0.3",
+	"name": "aid-number-2",
+	"version": "1.0.0",
 	"module": "src/lib/index.js",
 	"svelte": "src/lib/index.js",
 	"scripts": {
@@ -32,6 +32,7 @@
 	},
 	"type": "module",
 	"publishConfig": {
-		"directory": "./package"
+		"directory": "./package",
+		"access": "public"
 	}
 }
