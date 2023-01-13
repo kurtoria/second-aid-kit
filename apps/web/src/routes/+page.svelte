@@ -1,6 +1,6 @@
 <script lang="ts">
   import { MyCounterButton } from 'ui';
-  import { UsefulButton } from 'test-pack';
+  import { UsefulButton } from 'aid-number-1';
 </script>
 
 <h1>Web</h1>
