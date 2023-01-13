@@ -1,1 +1,1 @@
-<button on:click={() => console.log('Bös')}>Bös</button>
+<button on:click={() => console.log('Bos')}>Bös</button>
