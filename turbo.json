@@ -10,6 +10,9 @@
     },
     "dev": {
       "cache": false
+    },
+    "pack": {
+      "cache": false
     }
   }
 }
