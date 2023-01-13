@@ -17,7 +17,7 @@ importers:
       prettier-plugin-svelte: 2.8.1_nxhwyzrlb2jiv2xtis3ad534qu
       turbo: 1.7.0
 
-  packages/aid-number-2:
+  packages/aid-number-1:
     specifiers:
       '@sveltejs/adapter-auto': ^1.0.0
       '@sveltejs/kit': ^1.0.0
@@ -52,7 +52,7 @@ importers:
       vite: 4.0.0
     publishDirectory: ./package
 
-  packages/aid-number-3:
+  packages/aid-number-2:
     specifiers:
       '@sveltejs/adapter-auto': ^1.0.0
       '@sveltejs/kit': ^1.0.0
