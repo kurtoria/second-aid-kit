@@ -12,9 +12,18 @@ jobs:
         uses: actions/checkout@v3
       - uses: pnpm/action-setup@v2
         with:
-          version: 7.18.1
-      - run: pnpm install
-      - run: pnpm changeset version
+          # This makes Actions fetch all Git history so that Changesets can generate changelogs with the correct commits
+          fetch-depth: 0
+      - uses: pnpm/action-setup@v2.2.4
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+
       - run: pnpm turbo pack
       - name: Create Release Pull Request or Publish to npm
         id: changesets
