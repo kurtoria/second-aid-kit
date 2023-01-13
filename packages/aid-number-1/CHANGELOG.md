@@ -1,5 +1,15 @@
 # aid-number-1
 
+## 3.0.0
+
+### Major Changes
+
+- 4b29120: Fix release flow
+
+### Patch Changes
+
+- Updated docs
+
 ## 2.0.1
 
 ### Patch Changes
