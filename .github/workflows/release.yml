@@ -1,3 +1,4 @@
+
 name: Release
 on:
   push:
@@ -21,14 +22,6 @@ jobs:
           node-version: 16.x
           cache: pnpm
       - run: pnpm install --frozen-lockfile
-      # TODO: control
-      #- name: Creating .npmrc
-      #  run: |
-      #    cat << EOF > "$HOME/.npmrc"
-      #      //npm.pkg.github.com/:_authToken=$NPM_TOKEN
-      #    EOF
-      #  env:
-      #    NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: pnpm turbo pack
       - name: Create Release Pull Request or Publish to npm
         id: changesets
@@ -39,4 +32,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-
