@@ -1,8 +1,18 @@
 {
 	"name": "aid-number-1",
 	"version": "4.1.0",
+	"type": "module",
 	"module": "src/lib/index.js",
 	"svelte": "src/lib/index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kurtoria/second-aid-kit.git",
+		"directory": "packages/aid-number-1"
+	},
+	"publishConfig": {
+		"directory": "./package",
+		"access": "public"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "svelte-kit sync && svelte-package",
@@ -29,10 +39,5 @@
 		"tslib": "^2.4.1",
 		"typescript": "^4.9.3",
 		"vite": "^4.0.0"
-	},
-	"type": "module",
-	"publishConfig": {
-		"directory": "./package",
-		"access": "public"
 	}
 }
