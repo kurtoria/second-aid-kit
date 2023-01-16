@@ -10,6 +10,7 @@
 		"directory": "packages/aid-number-1"
 	},
 	"publishConfig": {
+		"registry": "https://npm.pkg.github.com",
 		"directory": "./package",
 		"access": "public"
 	},
