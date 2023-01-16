@@ -4,4 +4,4 @@
 '@kurtoria/aid-number-3': major
 ---
 
-test release
+update package
