@@ -1,3 +1,3 @@
-# Turborepo Svelte starter
+# Second aid kit
 
-This is an official starter Turborepo.
+Test repo for turborepo, release workflows and changesets.
