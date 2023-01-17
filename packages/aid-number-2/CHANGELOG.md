@@ -1,5 +1,11 @@
 # aid-number-1
 
+## 6.0.0
+
+### Major Changes
+
+- 6b65ee4: test release
+
 ## 5.0.1
 
 ### Patch Changes
