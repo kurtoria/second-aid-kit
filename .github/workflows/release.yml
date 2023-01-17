@@ -24,10 +24,10 @@ jobs:
       - name: Creating .npmrc
         run: |
           cat << EOF > "$HOME/.npmrc"
-            //npm.pkg.github.com/:_authToken=$GITHUB_TOKEN
+            //npm.pkg.github.com/:_authToken=$NPM_TOKEN
           EOF
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: pnpm turbo pack
       - name: Create Release Pull Request or Publish to npm
         id: changesets
