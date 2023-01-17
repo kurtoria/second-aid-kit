@@ -1,6 +1,6 @@
 {
 	"name": "@kurtoria/aid-number-3",
-	"version": "5.0.1",
+	"version": "6.0.0",
 	"type": "module",
 	"module": "src/lib/index.js",
 	"svelte": "src/lib/index.js",
