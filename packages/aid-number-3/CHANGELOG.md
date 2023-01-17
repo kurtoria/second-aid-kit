@@ -1,5 +1,11 @@
 # aid-number-1
 
+## 6.1.0
+
+### Minor Changes
+
+- 08e5d23: update package
+
 ## 6.0.0
 
 ### Major Changes
