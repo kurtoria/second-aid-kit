@@ -1,5 +1,11 @@
 # aid-number-1
 
+## 6.0.1
+
+### Patch Changes
+
+- 2649934: update readme
+
 ## 6.0.0
 
 ### Major Changes
