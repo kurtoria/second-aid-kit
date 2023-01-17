@@ -38,7 +38,7 @@ pnpm changeset
 		"registry": "https://npm.pkg.github.com",
 		"name": "@OWNER/PACKAGE_NAME",
 		"directory": "./package",
-		"access": "public" // TODO: maybe not of course?
+		"access": "public"
 	},
 ```
 
