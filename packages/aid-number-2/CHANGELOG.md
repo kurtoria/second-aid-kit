@@ -1,5 +1,11 @@
 # aid-number-1
 
+## 6.1.1
+
+### Patch Changes
+
+- e530da5: Did stuff
+
 ## 6.1.0
 
 ### Minor Changes
