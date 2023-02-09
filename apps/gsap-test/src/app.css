@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+		@apply font-bold text-8xl;
+		line-height: 4.125rem;
+	}
+
+}
